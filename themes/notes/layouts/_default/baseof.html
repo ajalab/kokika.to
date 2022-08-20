@@ -9,9 +9,15 @@
 
 <body>
     <div class="wrapper">
-        {{- partial "header.html" . -}}
+        <header class="site-header">
+            <div class="site-header-logo">
+                <a href="/">{{ .Site.Title }}</a>
+            </div>
+            <nav class="site-header-nav">
+                <a href='{{ref . "about"}}'>About</a>
+            </nav>
+        </header>
         {{- block "content" . }}{{- end }}
-        {{- partial "footer.html" . -}}
     </div>
 </body>
 

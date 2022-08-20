@@ -1,3 +1,7 @@
+body {
+    font-family: ui-sans-serif;
+}
+
 .wrapper {
     max-width: 750px;
     margin-left: auto;

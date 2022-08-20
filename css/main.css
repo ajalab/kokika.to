@@ -4,6 +4,7 @@ body {
 
 .wrapper {
     max-width: 750px;
+    margin-block-start: 20px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;

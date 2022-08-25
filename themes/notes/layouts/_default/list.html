@@ -5,7 +5,7 @@
             <h1>{{ .Title }}</h1>
         </header>
         {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-        {{ range $pages.ByDate }}
+        {{ range $pages.ByDate.Reverse }}
         <article class="list-item-article">
             <header class="list-item-header">
                 <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>

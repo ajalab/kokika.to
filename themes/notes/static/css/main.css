@@ -13,6 +13,25 @@ code {
     font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
 }
 
+table {
+    border-collapse: collapse;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border-bottom: solid 1px #000;
+}
+
+td {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+}
+
 .wrapper {
     max-width: 750px;
     margin-block-start: 20px;

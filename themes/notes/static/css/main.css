@@ -2,6 +2,17 @@ body {
     font-family: ui-sans-serif;
 }
 
+code {
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    padding-top: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-bottom: 0.2em;
+    font-size: 0.9em;
+    font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
+}
+
 .wrapper {
     max-width: 750px;
     margin-block-start: 20px;
